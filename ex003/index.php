@@ -19,7 +19,12 @@
         var_dump($v);
 
 
-        
+        /* quando usamos aspas fuplas o php interpleta o conteudo diferente das aspas simples */
+
+        $nome = "Coelho";
+        $sobre = "da Silva";
+
+        echo "$nome " . "$sobre";
     ?>
 </body>
 </html>

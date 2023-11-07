@@ -12,3 +12,4 @@
     ?>
 </body>
 </html>
+<!-- Modulo % pega o resto de uma operação  -->

@@ -30,7 +30,7 @@
     ";   
     ?>
     <br> <br>
-    <a class="botao" href="javascript:history.go(-1)">Voltar</a>
+    <a class="botao" href="javascript:history.go(-1)">Voltar</a >
 
     <strong></strong>
     </main>

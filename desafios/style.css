@@ -37,6 +37,7 @@ main, section, article {
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.502);
+    text-align: center;
 }
 
 footer {
@@ -226,3 +227,14 @@ input[type=radio] + label, input[type=checkbox] + label {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.botao {
+    border-radius: 7px 7px;
+    padding: 10px 30%;
+    background-color: #8680ac;
+    box-shadow: #15142b2a 2px 2px;
+
+}
+
+.botao:hover{
+    background-color: #ccc;
+}

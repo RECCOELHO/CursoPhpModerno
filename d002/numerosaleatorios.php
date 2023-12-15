@@ -17,7 +17,8 @@
             echo $numero."<br>";
         ?>
         </p>
-        <a type="botao" onClick="recarregarAPagina()">Atualizar!</abs>
+        <button id="reloadButton">Recarregar Página</button>
     </main>
+    <script src="seu_script.js"></script>
 </body>
 </html>

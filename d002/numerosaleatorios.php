@@ -8,13 +8,22 @@
 </head>
 <body>
     <main>
-        <h1>Trabalhando com números aleatórios</h1>
-        <p>Gerando um número aleatorio entre 0 e 100...</p>
+        <h1>Rolagem de Dados pro RPG</h1>
+        <p>Gerando um número aleatorio entre 1 e 20...</p>
         <p>Seu numero aleatorio é:
-        
+
         <?php 
-            $numero = rand(0, 100);
+            $numero = rand(1, 20);
             echo $numero."<br>";
+            if($numero < 5 ){
+                echo "<p>Que azar.</p>";
+            } elseif($numero >= 6 && $numero <= 10 ){
+                echo "<p>Não é tão ruim, mas é ruim.</p>";
+            } elseif($numero >= 11 && $numero <= 15 ){
+                echo "<p>Deu Certo!</p>";
+            } elseif($numero >= 16 && $numero <= 20 ){
+                echo "<p>Critocooo!!! boa.</p>";
+            };
         ?>
         </p>
         <button id="reloadButton">Recarregar Página</button>
